@@ -1,7 +1,7 @@
 [
-  { "id": 1, "kode": "P001", "nama": "Ahmad Rizki", "no_hp": "081234567891", "alamat": "Malang" },
-  { "id": 2, "kode": "P002", "nama": "Dwi Lestari", "no_hp": "082198765432", "alamat": "Batu" },
-  { "id": 3, "kode": "P003", "nama": "Fajar Nugroho", "no_hp": "085712345678", "alamat": "Malang" },
-  { "id": 4, "kode": "P004", "nama": "Siti Aminah", "no_hp": "081211223344", "alamat": "Lawang" },
-  { "id": 5, "kode": "P005", "nama": "Budi Santoso", "no_hp": "083899887766", "alamat": "Malang" }
+  { "id": 1, "kode": "P001", "nama": "Jokowi", "no_hp": "081234567891", "alamat": "Solo" },
+  { "id": 2, "kode": "P002", "nama": "Anis fahrotun Nisa", "no_hp": "082198765432", "alamat": "Malang" },
+  { "id": 3, "kode": "P003", "nama": "Anacitta", "no_hp": "085712345678", "alamat": "Malang" },
+  { "id": 4, "kode": "P004", "nama": "Reva Aulia", "no_hp": "081211223344", "alamat": "Surabaya" },
+  { "id": 5, "kode": "P005", "nama": "Munawar", "no_hp": "083899887766", "alamat": "Malang" }
 ]
