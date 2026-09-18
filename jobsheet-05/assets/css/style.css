@@ -1,0 +1,84 @@
+/*
+  RentalPS-Mini — style.css
+  Override kecil di atas Bootstrap 5 supaya konsisten dengan warna brand
+  RentalPS-Mini (tema rental PlayStation), bukan warna default Bootstrap.
+*/
+
+:root {
+  --rps-dark: #17122b;      /* navbar / footer */
+  --rps-primary: #5b3ea8;   /* aksen utama (ungu gaming) */
+  --rps-primary-hover: #46316f;
+  --rps-soft: #f1edfb;      /* background kartu statistik */
+  --rps-text-soft: #6c757d;
+}
+
+body {
+  background-color: #f7f7fb;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #fff !important;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #d8c9f7 !important;
+}
+
+.card-title {
+  color: var(--rps-primary);
+}
+
+.stat-box {
+  background-color: var(--rps-soft);
+}
+
+.stat-box .stat-value {
+  color: var(--rps-primary);
+}
+
+form button[type="submit"],
+.btn-brand {
+  background-color: var(--rps-primary);
+  color: #fff;
+  border: none;
+}
+
+form button[type="submit"]:hover,
+.btn-brand:hover {
+  background-color: var(--rps-primary-hover);
+  color: #fff;
+}
+
+/* Badge status unit PS */
+.badge-tersedia { background-color: #1f9d55; }
+.badge-disewa   { background-color: #c0392b; }
+.badge-maintenance { background-color: #6c757d; }
+
+/* Kolom pencarian tabel (Jobsheet 5) */
+.search-box {
+  max-width: 320px;
+}
+
+/* Baris yang disembunyikan oleh fitur filter tabel */
+tr.d-none-filter {
+  display: none !important;
+}
+
+/* Pesan "data tidak ditemukan" hasil filter */
+.table-empty-row td {
+  text-align: center;
+  color: var(--rps-text-soft);
+  font-style: italic;
+  padding: 1.25rem 0;
+}
+
+/* Pesan error validasi custom (Jobsheet 5) */
+.invalid-feedback {
+  display: none;
+}
+.is-invalid ~ .invalid-feedback,
+.is-invalid + .invalid-feedback {
+  display: block;
+}

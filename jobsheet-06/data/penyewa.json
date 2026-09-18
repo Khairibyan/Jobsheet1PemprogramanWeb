@@ -1,0 +1,7 @@
+[
+  { "id": 1, "kode": "P001", "nama": "Ahmad Rizki", "no_hp": "0821xxxxxxx", "alamat": "Malang" },
+  { "id": 2, "kode": "P002", "nama": "Dwi Lestari", "no_hp": "0813xxxxxxx", "alamat": "Batu" },
+  { "id": 3, "kode": "P003", "nama": "Fajar Nugroho", "no_hp": "0857xxxxxxx", "alamat": "Malang" },
+  { "id": 4, "kode": "P004", "nama": "Siti Aminah", "no_hp": "0812xxxxxxx", "alamat": "Lawang" },
+  { "id": 5, "kode": "P005", "nama": "Budi Santoso", "no_hp": "0838xxxxxxx", "alamat": "Malang" }
+]
